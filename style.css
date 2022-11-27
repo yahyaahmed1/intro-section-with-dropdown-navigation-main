@@ -47,6 +47,7 @@ ul {
   gap: 25px;
   display: flex;
   font-size: 14px;
+  user-select: none;
 }
 ul > li:hover .name span {
   color: var(--almost-black);
@@ -81,6 +82,7 @@ ul > li:nth-child(4):hover {
   border-radius: 10px;
   transition: opacity 1s;
   align-items: flex-start;
+  user-select: none;
 }
 .more-features > div {
   display: flex;
@@ -110,6 +112,7 @@ ul > li:nth-child(4):hover {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 10px;
+  user-select: none;
   transition: opacity 1s;
 }
 .about-company > div:hover {
