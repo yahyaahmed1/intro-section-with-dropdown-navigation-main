@@ -89,6 +89,7 @@ ul > li:nth-child(4):hover {
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
+  user-select: none;
 }
 .more-features > div:hover {
   color: var(--almost-black);
@@ -114,6 +115,9 @@ ul > li:nth-child(4):hover {
   border-radius: 10px;
   user-select: none;
   transition: opacity 1s;
+}
+.about-company > div {
+  user-select: none;
 }
 .about-company > div:hover {
   color: var(--almost-black);
