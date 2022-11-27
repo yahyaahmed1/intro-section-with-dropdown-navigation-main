@@ -41,12 +41,10 @@ let openBtn = document.querySelector(".menu-open"),
   menu = document.querySelector(".menu");
 
 openBtn.onclick = () => {
-  menu.style.cssText = "opacity:1;";
+  menu.style.cssText = "display: block; opacity:1;";
   openBtn.style.cssText = "z-index:0";
-  closeBtn.style.cssText = "display: block; visibility: visible;";
 };
 closeBtn.onclick = () => {
   menu.style.cssText = "opacity:0;";
   openBtn.style.cssText = "";
-  closeBtn.style.cssText = "";
 };

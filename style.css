@@ -239,6 +239,7 @@ footer {
     right: 250px;
   }
   .menu {
+    display: none;
     opacity: 0;
     width: 250px;
     height: 100%;
@@ -246,7 +247,6 @@ footer {
     position: fixed;
     right: 0;
     top: 0;
-    transition: opacity 1s;
   }
   img.menu-open {
     display: block;
@@ -257,7 +257,6 @@ footer {
   }
   img.menu-close {
     display: block;
-    visibility: hidden;
     margin: 0 0 0 auto;
     padding: 22px 30px;
     cursor: pointer;
